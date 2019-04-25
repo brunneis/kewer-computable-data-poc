@@ -11,6 +11,11 @@ Lanzar wordcount
 python launch.py wordcount.py WordCount
 ```
 
+Lanzar count
+```
+python launch.py count.py Count
+```
+
 
 Esqueleto de un script
 ```python

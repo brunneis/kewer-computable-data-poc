@@ -26,7 +26,7 @@ class WordCount(Kernel):
 
         compartment_counter = 0
         for value, key in sorted_wordcount:
-            if compartment_counter == 100:
+            if compartment_counter == Drawer.MAX_ITEMS:
                 break
             drawer.add_compartment(key, value)
             compartment_counter += 1
